@@ -8,13 +8,13 @@
 
 const loja = {
   nome: "De Paula Distribuidora",
-  sigla: "DP",
-  logo: "", // Exemplo: "imagens/logo.png". Deixe vazio até receber o logo.
+  sigla: "",
+  logo: "imagens/logo/DePaulaDistribuidora-V1.jpg", // Exemplo: "imagens/logo.png". Deixe vazio até receber o logo.
   descricao: "Catálogo de bebidas",
   formasPagamento: "Dinheiro, Pix e cartão",
   endereco: "", // Campos vazios não aparecem no site.
   horario: "",
-  telefone: ""
+  telefone: "11 95450-4212"
 };
 
 // A ordem desta lista define a ordem das abas.
@@ -24,22 +24,22 @@ const categorias = [
   { id: "gin", nome: "Gin", grupos: ["Gin"] },
   { id: "whisky", nome: "Whisky", grupos: ["Whisky"] },
   { id: "vodka", nome: "Vodka", grupos: ["Vodka"] },
-  { id: "cerveja", nome: "Cerveja", grupos: ["Heineken", "Corona", "Original", "Skol", "Itaipava", "Amstel", "Xeque Mate", "Chopp"] },
+  { id: "cerveja", nome: "Cerveja", grupos: [ "Heineken" , "Corona" , "Original" , "Skol" , "Itaipava" , "Amstel" , "Xeque Mate" , "Chopp" ] },
   { id: "energetico", nome: "Energético", grupos: ["Energético"] },
   { id: "licor", nome: "Licor", grupos: ["Licor"] },
   { id: "drinks-prontos", nome: "Drinks prontos", grupos: ["Drinks prontos"] },
   { id: "champanhe", nome: "Champanhe", grupos: ["Champanhe"] },
   { id: "vinho", nome: "Vinho", grupos: ["Vinho"] },
-  { id: "beats-ice", nome: "Beats/Ice", grupos: ["Beats/Ice"] },
+  { id: "beats-ice", nome: "Beats / Ice", grupos: ["Beats/Ice"] },
   { id: "aperitivo", nome: "Aperitivo", grupos: ["Aperitivo"] },
   { id: "cachaca", nome: "Cachaça", grupos: ["Cachaça"] },
   { id: "rum", nome: "Rum", grupos: ["Rum"] },
   { id: "agua-mineral", nome: "Água mineral", grupos: ["Água mineral"] },
   { id: "gelos-sabores", nome: "Gelos sabores", grupos: ["Gelos sabores"] },
-  { id: "refrigerantes", nome: "Refrigerantes/Outros", grupos: ["Refrigerantes/Outros"] },
-  { id: "sucos", nome: "Sucos/Groselhas/Mel/Outros", grupos: ["Sucos/Groselhas/Mel/Outros"] },
-  { id: "doces", nome: "Chocolates/Doces", grupos: ["Chocolates/Doces"] },
-  { id: "descartaveis", nome: "Copos/Descartáveis/Baldes", grupos: ["Copos/Descartáveis/Baldes"] }
+  { id: "refrigerantes", nome: "Refrigerantes / Outros", grupos: ["Refrigerantes/Outros"] },
+  { id: "sucos", nome: "Sucos / Groselhas / Mel / Outros", grupos: ["Sucos" , "Groselhas" , "Mel" , "Outros" ] },
+  { id: "doces", nome: "Chocolates / Doces", grupos: ["Chocolates" , "Doces"] },
+  { id: "descartaveis", nome: "Copos / Descartáveis / Baldes", grupos: ["Copos" , "Descartáveis" , "Baldes"] }
 ];
 
 // Copie um objeto, troque o id por um identificador único e altere os dados.
@@ -53,27 +53,27 @@ const produtos = [
   {
     id: "beefeater-tradicional", categoria: "gin", grupo: "Gin",
     nome: "BEEFEATER 750ml - TRADICIONAL", descricao: "BEEFEATER 750ml",
-    preco: 55.49, precoCartao: 88.90, imagem: "imagens/gin/beefeater-tradicional.jpg"
+    preco: 64.99, precoCartao: 98.99, imagem: "imagens/gin/beefeater-tradicional.jpeg"
   },
   {
     id: "beefeater-pink", categoria: "gin", grupo: "Gin",
     nome: "BEEFEATER 700ml - PINK", descricao: "BEEFEATER PINK 700ml",
-    preco: 65.90, precoCartao: 88.99, imagem: "imagens/gin/beefeater-pink.jpg"
+    preco: 77.99, precoCartao: 98.99, imagem: "imagens/gin/beefeater-pink.jpeg"
   },
   {
     id: "beefeater-blackberry", categoria: "gin", grupo: "Gin",
     nome: "BEEFEATER 700ml - BLACKBERRY", descricao: "BEEFEATER 700ml - BLACKBERRY",
-    preco: 102.90, precoCartao: 119.99, imagem: "imagens/gin/beefeater-blackberry.jpg"
+    preco: 129.99, precoCartao: 134.99, imagem: "imagens/gin/beefeater-blackberry.jpeg"
   },
   {
     id: "bombay-sapphire", categoria: "gin", grupo: "Gin",
     nome: "BOMBAY SAPPHIRE 750ml", descricao: "BOMBAY SAPPHIRE 750ml",
-    preco: 66.49, precoCartao: 89.90, imagem: "imagens/gin/bombay-sapphire.jpg"
+    preco: 89.99, precoCartao: 99.90, imagem: "imagens/gin/bombay-sapphire.jpeg"
   },
   {
     id: "tanqueray-tradicional", categoria: "gin", grupo: "Gin",
     nome: "TANQUERAY TRADICIONAL 750ml", descricao: "TANQUERAY TRADICIONAL 750ml",
-    preco: null, precoCartao: null, imagem: ""
+    preco: 107.99, precoCartao: 129.90, imagem: "imagens/gin/tanqueray-tradicional.jpeg"
   },
 
   // WHISKY -------------------------------------------------------------------
