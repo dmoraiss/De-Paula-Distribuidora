@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Confira o catálogo de bebidas da De Paula Distribuidora.">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>De Paula Distribuidora | Catálogo </title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23212424'/%3E%3Ctext x='32' y='40' font-family='Arial,sans-serif' font-size='26' font-weight='700' text-anchor='middle' fill='%2377b8ae'%3EDP%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/estilo.css">
+
+  <!-- A ordem é importante: primeiro as preferências e os dados, depois o funcionamento. -->
+  
+  <script src="js/preferencias.js" defer></script>
+  <script src="js/catalogo.js" defer></script>
+  <script src="js/idiomas.js" defer></script>
+  <script src="js/script.js" defer></script>
+
+</head>
+
+<body>
+
+  <a class="pular-conteudo" href="#catalogo" data-i18n="pularConteudo">Ir para os produtos</a>
+
+  <!-- Estrutura da pagina - ( header , main .... ) --> 
+
+  <div class="pagina">
+
+    <header>
+
+      <div class="barra-superior">
+
+        <label class="idioma" for="idioma">
+          <span class="sr-only" data-i18n="idiomaCatalogo">Idioma do catálogo</span>
+          <select id="idioma" aria-label="Idioma do catálogo" data-i18n-aria="idiomaCatalogo">
+            <option value="pt-BR" lang="pt-BR">Português</option>
+            <option value="en" lang="en">English</option>
+            <option value="es" lang="es">Español</option>
+          </select>
+        </label>
+
+        <button class="botao-lupa" id="abrir-busca" type="button" aria-label="Buscar produtos" data-i18n-aria="buscarProdutos" aria-controls="area-busca" aria-expanded="false">
+
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+
+        </button>
+
+      </div>
+
+      <div class="identidade">
+
+        <div class="marca">
+
+          <div class="logo" id="logo-loja" aria-hidden="true"> DP </div>
+          <h1 id="nome-loja">De Paula Distribuidora</h1>
+
+        </div>
+
+        <div class="acoes-loja" aria-label="Informações do catálogo" data-i18n-aria="informacoesCatalogo">
+
+          <button class="botao-icone" id="ver-pagamento" type="button" title="Formas de pagamento" aria-label="Formas de pagamento" data-i18n-title="formasPagamento" data-i18n-aria="formasPagamento">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M7 15h4"/></svg>
+          </button>
+
+          <button class="botao-icone" id="ver-loja" type="button" title="Sobre a loja" aria-label="Sobre a loja" data-i18n-title="sobreLoja" data-i18n-aria="sobreLoja">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v10h16V10M3 10l2-6h14l2 6M8 4l-1 6m9-6 1 6M3 10a2 2 0 0 0 4 0 2 2 0 0 0 5 0 2 2 0 0 0 5 0 2 2 0 0 0 4 0M9 20v-6h6v6"/></svg>
+          </button>
+
+          <button class="botao-icone" id="compartilhar" type="button" title="Compartilhar catálogo" aria-label="Compartilhar catálogo" data-i18n-title="compartilharCatalogo" data-i18n-aria="compartilharCatalogo">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 10.5 6.8-4m-6.8 7 6.8 4"/></svg>
+          </button>
+
+        </div>
+
+      </div>
+
+      <div class="area-busca" id="area-busca" hidden>
+
+        <label class="sr-only" for="busca" data-i18n="buscarCatalogo"> Buscar em todo o catálogo </label>
+
+        <input id="busca" type="search" placeholder="Buscar em todo o catálogo" data-i18n-placeholder="buscarCatalogo" autocomplete="off">
+        <button class="botao-texto" id="fechar-busca" type="button" data-i18n="fechar">Fechar</button>
+
+      </div>
+
+    </header>
+
+    <div class="navegacao" id="navegacao">
+
+      <div class="linha-categorias">
+
+        <button class="seta seta-anterior" id="categorias-anteriores" type="button" aria-label="Ver categorias anteriores" data-i18n-aria="categoriasAnteriores" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>
+        </button>
+
+        <nav class="categorias" id="categorias" aria-label="Categorias de produtos" data-i18n-aria="categoriasProdutos"></nav>
+
+        <button class="seta seta-proxima" id="categorias-proximas" type="button" aria-label="Ver mais categorias" data-i18n-aria="maisCategorias" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg>
+        </button>
+
+      </div>
+
+      <nav class="subcategorias" id="subcategorias" aria-label="Grupos de produtos" data-i18n-aria="gruposProdutos"></nav>
+
+    </div>
+
+    <main id="catalogo" tabindex="-1" aria-label="Produtos do catálogo" data-i18n-aria="produtosCatalogo"></main>
+
+    <p class="sr-only" id="resultado-busca" role="status" aria-live="polite"></p>
+
+    <noscript>
+      <p class="sem-javascript"> 
+        Ative o JavaScript do seu navegador para visualizar os produtos. 
+      </p>
+    </noscript>
+
+    <footer>
+      <span id="nome-rodape"> De Paula Distribuidora </span><span data-i18n="rodapeCatalogo"> Catálogo de produtos </span>
+    </footer>
+
+  </div>
+
+  <!-- O navegador cuida do foco, do teclado e da tecla Esc deste modal. -->
+
+  <dialog id="modal" aria-labelledby="titulo-modal">
+
+    <div class="modal-conteudo">
+
+      <div class="modal-cabecalho">
+
+        <h2 id="titulo-modal"></h2>
+
+        <button class="fechar-modal" id="fechar-modal" type="button" aria-label="Fechar janela" data-i18n-aria="fecharJanela"> × </button>
+
+      </div>
+
+      <div id="corpo-modal"></div>
+
+    </div>
+
+  </dialog>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite" hidden></div>
+
+  <!-- Modelo usado pelo JavaScript. Para mudar a estrutura de um produto, edite aqui. -->
+
+  <template id="modelo-produto">
+
+    <button class="produto" type="button">
+
+      <span class="produto-texto">
+
+        <span class="produto-nome"></span>
+        <span class="produto-descricao"></span>
+        <span class="produto-condicoes"></span>
+        <span class="produto-preco"></span>
+
+      </span>
+
+      <img class="produto-imagem" alt="" width="112" height="112" loading="lazy" decoding="async">
+
+    </button>
+
+  </template>
+
+
+</body>
+</html>
+
+<!-- SHIFT + ALT + A = comentar -->
