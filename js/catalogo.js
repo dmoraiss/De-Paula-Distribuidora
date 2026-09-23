@@ -1023,7 +1023,7 @@ const produtos = [
   {
     id: "original-lata-269ml-c15un",
     categoria: "cerveja",
-    grupo: "Cerveja",
+    grupo: "Original",
     nome: "ORIGINAL LATA 269ml C/15UN",
     descricao: "ORIGINAL LATA 269ml C/15UN",
     preco: null,
@@ -1034,7 +1034,7 @@ const produtos = [
   {
     id: "original-269ml-c8un",
     categoria: "cerveja",
-    grupo: "Cerveja",
+    grupo: "Original",
     nome: "ORIGINAL 269ml C/8UN",
     descricao: "ORIGINAL 269ml C/8UN",
     preco: null,
@@ -1045,7 +1045,7 @@ const produtos = [
   {
     id: "skol-lata-269ml-fardo-fechado-c15",
     categoria: "cerveja",
-    grupo: "Cerveja",
+    grupo: "Skol",
     nome: "SKOL LATA 269ml FARDO FECHADO C/15",
     descricao: "SKOL LATA 269ml FARDO FECHADO C/15",
     preco: null,
@@ -1056,7 +1056,7 @@ const produtos = [
   {
     id: "itaipava-269ml",
     categoria: "cerveja",
-    grupo: "Cerveja",
+    grupo: "Itaipava",
     nome: "ITAIPAVA 269ml",
     descricao: "ITAIPAVA 269ml",
     preco: null,
@@ -1067,7 +1067,7 @@ const produtos = [
   {
     id: "amstel-lata-269ml",
     categoria: "cerveja",
-    grupo: "Cerveja",
+    grupo: "Amstel",
     nome: "AMSTEL LATA 269ml",
     descricao: "AMSTEL LATA 269ml",
     preco: null,
@@ -1078,7 +1078,7 @@ const produtos = [
   {
     id: "xeque-mate-lata-355ml",
     categoria: "cerveja",
-    grupo: "Cerveja",
+    grupo: "Xeque Mate",
     nome: "XEQUE MATE LATA 355ml",
     descricao: "XEQUE MATE LATA 355ml",
     preco: null,
@@ -1089,7 +1089,7 @@ const produtos = [
   {
     id: "draft-chopp-600ml",
     categoria: "cerveja",
-    grupo: "Cerveja",
+    grupo: "Chopp",
     nome: "DRAFT CHOPP 600ml",
     descricao: "DRAFT CHOPP 600ml",
     preco: null,
@@ -1618,96 +1618,7 @@ const produtos = [
   
   // DRINKS PRONTOS ------------------------------------------------------------------
   
-  {
-    id: "mansao-maromba-whisky-1l",
-    categoria: "prontos",
-    grupo: "Drinks prontos",
-    nome: "MANSÃO MAROMBA WHISKY PRONTO 1L",
-    descricao: "MANSÃO MAROMBA WHISKY PRONTO 1L",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
-  {
-    id: "mansao-maromba-whisky-maca-verde-1l",
-    categoria: "prontos",
-    grupo: "Drinks prontos",
-    nome: "MANSÃO MAROMBA WHISKY MAÇÃ VERDE PRONTO 1L",
-    descricao: "MANSÃO MAROMBA WHISKY MAÇÃ VERDE PRONTO 1L",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
-  {
-    id: "mansao-maromba-whisky-tigrinho-1l",
-    categoria: "prontos",
-    grupo: "Drinks prontos",
-    nome: "MANSÃO MAROMBA WHISKY TIGRINHO PRONTO 1L",
-    descricao: "MANSÃO MAROMBA WHISKY TIGRINHO PRONTO 1L",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
-  {
-    id: "mansao-maromba-gin-combo-tropical-1l",
-    categoria: "prontos",
-    grupo: "Drinks prontos",
-    nome: "MANSÃO MAROMBA GIN COMBO TROPICAL PRONTO 1L",
-    descricao: "MANSÃO MAROMBA GIN COMBO TROPICAL PRONTO 1L",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
-  {
-    id: "mansao-maromba-gin-melancia-1l",
-    categoria: "prontos",
-    grupo: "Drinks prontos",
-    nome: "MANSÃO MAROMBA GIN MELANCIA PRONTO 1L",
-    descricao: "MANSÃO MAROMBA GIN MELANCIA PRONTO 1L",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
-  {
-    id: "drink-invictus-tropical-1l",
-    categoria: "prontos",
-    grupo: "Drinks prontos",
-    nome: "DRINK INVICTUS SABOR DO SABOR TROPICAL 1L",
-    descricao: "DRINK INVICTUS SABOR DO SABOR TROPICAL 1L",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
-  {
-    id: "drink-invictus-maca-verde-1l",
-    categoria: "prontos",
-    grupo: "Drinks prontos",
-    nome: "DRINK INVICTUS SABOR DO SABOR MAÇÃ VERDE 1L",
-    descricao: "DRINK INVICTUS SABOR DO SABOR MAÇÃ VERDE 1L",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
-  {
-    id: "drink-invictus-melancia-1l",
-    categoria: "prontos",
-    grupo: "Drinks prontos",
-    nome: "DRINK INVICTUS SABOR DO SABOR MELANCIA 1L",
-    descricao: "DRINK INVICTUS SABOR DO SABOR MELANCIA 1L",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
-  {
-    id: "drink-invictus-whisky-1l",
-    categoria: "prontos",
-    grupo: "Drinks prontos",
-    nome: "DRINK INVICTUS SABOR DO SABOR WHISKY 1L",
-    descricao: "DRINK INVICTUS SABOR DO SABOR WHISKY 1L",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
+  
 
   // CHAMPANHE ------------------------------------------------------------------
   
@@ -1761,9 +1672,6 @@ const produtos = [
     precoCartao: null,
     imagem: null
   },
-
-  // DESCARTÁVEIS ------------------------------------------------------------------
-  
 
 
   // VINHO ------------------------------------------------------------------
@@ -2122,8 +2030,8 @@ const produtos = [
   
   {
     id: "agua-crystal-gold-sem-gas-510ml",
-    categoria: "agua",
-    grupo: "Água Mineral",
+    categoria: "agua-mineral",
+    grupo: "Água mineral",
     nome: "ÁGUA CRYSTAL GOLD S/GÁS 510ml",
     descricao: "ÁGUA CRYSTAL GOLD S/GÁS 510ml",
     preco: null,
@@ -2132,8 +2040,8 @@ const produtos = [
   },
   {
     id: "agua-com-gas-crystal-510ml",
-    categoria: "agua",
-    grupo: "Água Mineral",
+    categoria: "agua-mineral",
+    grupo: "Água mineral",
     nome: "ÁGUA COM GÁS CRYSTAL 510ml",
     descricao: "ÁGUA COM GÁS CRYSTAL 510ml",
     preco: null,
@@ -2142,8 +2050,8 @@ const produtos = [
   },
   {
     id: "agua-crystal-gold-sem-gas-1-5l",
-    categoria: "agua",
-    grupo: "Água Mineral",
+    categoria: "agua-mineral",
+    grupo: "Água mineral",
     nome: "ÁGUA CRYSTAL GOLD S/GÁS 1,5L",
     descricao: "ÁGUA CRYSTAL GOLD S/GÁS 1,5L",
     preco: null,
@@ -2155,8 +2063,8 @@ const produtos = [
   
   {
     id: "gelo-rms-melancia-200ml",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO RMS MELANCIA 200ml",
     descricao: "GELO RMS MELANCIA 200ml",
     preco: null,
@@ -2165,8 +2073,8 @@ const produtos = [
   },
   {
     id: "gelo-rms-maracuja-200ml",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO RMS MARACUJÁ 200ml",
     descricao: "GELO RMS MARACUJÁ 200ml",
     preco: null,
@@ -2175,8 +2083,8 @@ const produtos = [
   },
   {
     id: "gelo-rms-maca-verde-200ml",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO RMS MAÇÃ VERDE 200ml",
     descricao: "GELO RMS MAÇÃ VERDE 200ml",
     preco: null,
@@ -2185,8 +2093,8 @@ const produtos = [
   },
   {
     id: "gelo-rms-blueberry-200ml",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO RMS BLUEBERRY 200ml",
     descricao: "GELO RMS BLUEBERRY 200ml",
     preco: null,
@@ -2195,8 +2103,8 @@ const produtos = [
   },
   {
     id: "gelo-rms-coco-200ml",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO RMS COCO 200ml",
     descricao: "GELO RMS COCO 200ml",
     preco: null,
@@ -2205,8 +2113,8 @@ const produtos = [
   },
   {
     id: "gelo-rms-morango-200ml",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO RMS MORANGO 200ml",
     descricao: "GELO RMS MORANGO 200ml",
     preco: null,
@@ -2215,8 +2123,8 @@ const produtos = [
   },
   {
     id: "gelo-rms-morango-pessego-200ml",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO RMS MORANGO COM PÊSSEGO 200ml",
     descricao: "GELO RMS MORANGO COM PÊSSEGO 200ml",
     preco: null,
@@ -2225,8 +2133,8 @@ const produtos = [
   },
   {
     id: "agua-coco-coko-200ml-fardo-27",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "ÁGUA DE COCO DO COKO 200ml FARDO C/27 (DESCONGELADO)",
     descricao: "ÁGUA DE COCO DO COKO 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
@@ -2235,8 +2143,8 @@ const produtos = [
   },
   {
     id: "agua-coco-coko-morango-200ml-fardo-28",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "ÁGUA DE COCO DO COKO MORANGO 200ml FARDO C/28 (DESCONGELADO)",
     descricao: "ÁGUA DE COCO DO COKO MORANGO 200ml FARDO C/28 (DESCONGELADO)",
     preco: null,
@@ -2245,8 +2153,8 @@ const produtos = [
   },
   {
     id: "agua-coco-coko-melancia-200ml-fardo-27",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "ÁGUA DE COCO DO COKO MELANCIA 200ml FARDO C/27 (DESCONGELADO)",
     descricao: "ÁGUA DE COCO DO COKO MELANCIA 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
@@ -2255,8 +2163,8 @@ const produtos = [
   },
   {
     id: "agua-coco-coko-maracuja-200ml-fardo-27",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "ÁGUA DE COCO DO COKO MARACUJÁ 200ml FARDO C/27 (DESCONGELADO)",
     descricao: "ÁGUA DE COCO DO COKO MARACUJÁ 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
@@ -2265,8 +2173,8 @@ const produtos = [
   },
   {
     id: "agua-coco-coko-maca-verde-200ml-fardo-27",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "ÁGUA DE COCO DO COKO MAÇÃ VERDE 200ml FARDO C/27 (DESCONGELADO)",
     descricao: "ÁGUA DE COCO DO COKO MAÇÃ VERDE 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
@@ -2275,8 +2183,8 @@ const produtos = [
   },
   {
     id: "agua-coco-coko-pitaya-200ml-fardo-27",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "ÁGUA DE COCO DO COKO PITAYA 200ml FARDO C/27 (DESCONGELADO)",
     descricao: "ÁGUA DE COCO DO COKO PITAYA 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
@@ -2285,8 +2193,8 @@ const produtos = [
   },
   {
     id: "agua-coco-coko-pessego-200ml-fardo-27",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "ÁGUA DE COCO DO COKO PÊSSEGO 200ml FARDO C/27 (DESCONGELADO)",
     descricao: "ÁGUA DE COCO DO COKO PÊSSEGO 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
@@ -2295,8 +2203,8 @@ const produtos = [
   },
   {
     id: "gelo-coko-uva-congelado",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COKO UVA CONGELADO",
     descricao: "GELO COKO UVA CONGELADO",
     preco: null,
@@ -2305,8 +2213,8 @@ const produtos = [
   },
   {
     id: "gelo-coko-royale-congelado",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COKO ROYALE CONGELADO",
     descricao: "GELO COKO ROYALE CONGELADO",
     preco: null,
@@ -2315,8 +2223,8 @@ const produtos = [
   },
   {
     id: "gelo-coko-maca-verde-congelado",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COKO MAÇÃ VERDE CONGELADO",
     descricao: "GELO COKO MAÇÃ VERDE CONGELADO",
     preco: null,
@@ -2325,8 +2233,8 @@ const produtos = [
   },
   {
     id: "gelo-coko-laranja-congelado",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COKO LARANJA CONGELADO",
     descricao: "GELO COKO LARANJA CONGELADO",
     preco: null,
@@ -2335,8 +2243,8 @@ const produtos = [
   },
   {
     id: "gelo-coko-pessego-congelado",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COKO PÊSSEGO CONGELADO",
     descricao: "GELO COKO PÊSSEGO CONGELADO",
     preco: null,
@@ -2345,8 +2253,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-skol-beats-gt",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - SKOL BEATS GT CONGELADO",
     descricao: "GELO COCO LEVE - SKOL BEATS GT CONGELADO",
     preco: null,
@@ -2355,8 +2263,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-skol-beats-red-mix",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - SKOL BEATS RED MIX CONGELADO",
     descricao: "GELO COCO LEVE - SKOL BEATS RED MIX CONGELADO",
     preco: null,
@@ -2365,8 +2273,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-skol-beats-green-mix",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - SKOL BEATS GREEN MIX CONGELADO",
     descricao: "GELO COCO LEVE - SKOL BEATS GREEN MIX CONGELADO",
     preco: null,
@@ -2375,8 +2283,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-approve-amora",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - APPROVE AMORA CONGELADO",
     descricao: "GELO COCO LEVE - APPROVE AMORA CONGELADO",
     preco: null,
@@ -2385,8 +2293,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-baly",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - BALY CONGELADO",
     descricao: "GELO COCO LEVE - BALY CONGELADO",
     preco: null,
@@ -2395,8 +2303,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-cavalo-branco",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - CAVALO BRANCO CONGELADO",
     descricao: "GELO COCO LEVE - CAVALO BRANCO CONGELADO",
     preco: null,
@@ -2405,8 +2313,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-xeque-mate",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - XEQUE MATE CONGELADO",
     descricao: "GELO COCO LEVE - XEQUE MATE CONGELADO",
     preco: null,
@@ -2415,8 +2323,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-morango",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - MORANGO CONGELADO",
     descricao: "GELO COCO LEVE - MORANGO CONGELADO",
     preco: null,
@@ -2425,8 +2333,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-melancia",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - MELANCIA CONGELADO",
     descricao: "GELO COCO LEVE - MELANCIA CONGELADO",
     preco: null,
@@ -2435,8 +2343,8 @@ const produtos = [
   },
   {
     id: "gelo-coco-leve-maracuja",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO COCO LEVE - MARACUJÁ CONGELADO",
     descricao: "GELO COCO LEVE - MARACUJÁ CONGELADO",
     preco: null,
@@ -2445,8 +2353,8 @@ const produtos = [
   },
   {
     id: "gelo-ice-boss",
-    categoria: "gelo",
-    grupo: "Gelos Sabores",
+    categoria: "gelos-sabores",
+    grupo: "Gelos sabores",
     nome: "GELO ICE BOSS",
     descricao: "GELO ICE BOSS",
     preco: null,
@@ -2458,8 +2366,8 @@ const produtos = [
   
   {
     id: "coca-cola-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "COCA COLA 2L",
     descricao: "COCA COLA 2L",
     preco: null,
@@ -2468,8 +2376,8 @@ const produtos = [
   },
   {
     id: "coca-cola-zero-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "COCA COLA ZERO AÇÚCAR 2L",
     descricao: "COCA COLA ZERO AÇÚCAR 2L",
     preco: null,
@@ -2478,8 +2386,8 @@ const produtos = [
   },
   {
     id: "coca-cola-200ml",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "COCA COLA 200ml",
     descricao: "COCA COLA 200ml",
     preco: null,
@@ -2488,8 +2396,8 @@ const produtos = [
   },
   {
     id: "guarana-antartica-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "GUARANÁ ANTARTICA 2L",
     descricao: "GUARANÁ ANTARTICA 2L",
     preco: null,
@@ -2498,8 +2406,8 @@ const produtos = [
   },
   {
     id: "fanta-uva-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "FANTA UVA 2L",
     descricao: "FANTA UVA 2L",
     preco: null,
@@ -2508,8 +2416,8 @@ const produtos = [
   },
   {
     id: "dolly-limao-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "DOLLY LIMÃO 2L",
     descricao: "DOLLY LIMÃO 2L",
     preco: null,
@@ -2518,8 +2426,8 @@ const produtos = [
   },
   {
     id: "dolly-guarana-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "DOLLY GUARANA 2L",
     descricao: "DOLLY GUARANA 2L",
     preco: null,
@@ -2528,8 +2436,8 @@ const produtos = [
   },
   {
     id: "tuttibaina-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "TUTTIBAINA 2L",
     descricao: "TUTTIBAINA 2L",
     preco: null,
@@ -2538,8 +2446,8 @@ const produtos = [
   },
   {
     id: "tuttibaina-zero-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "TUTTIBAINA ZERO 2L",
     descricao: "TUTTIBAINA ZERO 2L",
     preco: null,
@@ -2548,8 +2456,8 @@ const produtos = [
   },
   {
     id: "popys-cola-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "POPYS COLA 2L",
     descricao: "POPYS COLA 2L",
     preco: null,
@@ -2558,8 +2466,8 @@ const produtos = [
   },
   {
     id: "popys-laranja-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "POPYS LARANJA 2L",
     descricao: "POPYS LARANJA 2L",
     preco: null,
@@ -2568,8 +2476,8 @@ const produtos = [
   },
   {
     id: "popys-limao-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "POPYS LIMÃO 2L",
     descricao: "POPYS LIMÃO 2L",
     preco: null,
@@ -2578,8 +2486,8 @@ const produtos = [
   },
   {
     id: "popys-guarana-2l",
-    categoria: "refrigerante",
-    grupo: "Refrigerante",
+    categoria: "refrigerantes",
+    grupo: "Refrigerantes / Outros",
     nome: "POPYS GUARANÁ 2L",
     descricao: "POPYS GUARANÁ 2L",
     preco: null,
@@ -2591,8 +2499,8 @@ const produtos = [
 
   {
     id: "suco-del-valle-maracuja-290ml",
-    categoria: "suco",
-    grupo: "Suco",
+    categoria: "sucos",
+    grupo: "Sucos",
     nome: "SUCO DEL VALLE MARACUJÁ 290ml",
     descricao: "SUCO DEL VALLE MARACUJÁ 290ml",
     preco: null,
@@ -2601,8 +2509,8 @@ const produtos = [
   },
   {
     id: "suco-del-valle-uva-290ml",
-    categoria: "suco",
-    grupo: "Suco",
+    categoria: "sucos",
+    grupo: "Sucos",
     nome: "SUCO DEL VALLE UVA 290ml",
     descricao: "SUCO DEL VALLE UVA 290ml",
     preco: null,
@@ -2614,8 +2522,8 @@ const produtos = [
   
   {
     id: "trento-avela-caixa-16un",
-    categoria: "chocolate",
-    grupo: "Chocolate",
+    categoria: "doces",
+    grupo: "Doces",
     nome: "TRENTO AVELÃ CAIXA C/16un",
     descricao: "TRENTO AVELÃ CAIXA C/16un",
     preco: null,
@@ -2624,8 +2532,8 @@ const produtos = [
   },
   {
     id: "trento-cheesecake-morango-caixa-16un",
-    categoria: "chocolate",
-    grupo: "Chocolate",
+    categoria: "doces",
+    grupo: "Doces",
     nome: "TRENTO CHEESCAKE MORANGO CAIXA C/16un",
     descricao: "TRENTO CHEESCAKE MORANGO CAIXA C/16un",
     preco: null,
@@ -2634,8 +2542,8 @@ const produtos = [
   },
   {
     id: "trento-duo-caixa-16un",
-    categoria: "chocolate",
-    grupo: "Chocolate",
+    categoria: "doces",
+    grupo: "Doces",
     nome: "TRENTO DUO CAIXA C/16un",
     descricao: "TRENTO DUO CAIXA C/16un",
     preco: null,
@@ -2644,8 +2552,8 @@ const produtos = [
   },
   {
     id: "trento-morango-caixa-16un",
-    categoria: "chocolate",
-    grupo: "Chocolate",
+    categoria: "doces",
+    grupo: "Doces",
     nome: "TRENTO MORANGO CAIXA C/16un",
     descricao: "TRENTO MORANGO CAIXA C/16un",
     preco: null,
@@ -2654,8 +2562,8 @@ const produtos = [
   },
   {
     id: "trento-chocolate-caixa-16un",
-    categoria: "chocolate",
-    grupo: "Chocolate",
+    categoria: "doces",
+    grupo: "Doces",
     nome: "TRENTO CHOCOLATE CAIXA C/16un",
     descricao: "TRENTO CHOCOLATE CAIXA C/16un",
     preco: null,
@@ -2664,8 +2572,8 @@ const produtos = [
   },
   {
     id: "trento-torta-limao-caixa-16un",
-    categoria: "chocolate",
-    grupo: "Chocolate",
+    categoria: "doces",
+    grupo: "Doces",
     nome: "TRENTO TORTA DE LIMÃO CAIXA C/16un",
     descricao: "TRENTO TORTA DE LIMÃO CAIXA C/16un",
     preco: null,
@@ -2674,8 +2582,8 @@ const produtos = [
   },
   {
     id: "trento-torta-pistache-caixa-16un",
-    categoria: "chocolate",
-    grupo: "Chocolate",
+    categoria: "doces",
+    grupo: "Doces",
     nome: "TRENTO TORTA DE PISTACHE CAIXA C/16un",
     descricao: "TRENTO TORTA DE PISTACHE CAIXA C/16un",
     preco: null,
@@ -2684,8 +2592,8 @@ const produtos = [
   },
   {
     id: "trento-trufa-caixa-16un",
-    categoria: "chocolate",
-    grupo: "Chocolate",
+    categoria: "doces",
+    grupo: "Doces",
     nome: "TRENTO TRUFA CAIXA C/16un",
     descricao: "TRENTO TRUFA CAIXA C/16un",
     preco: null,
@@ -2697,7 +2605,7 @@ const produtos = [
   
   {
     id: "copo-770ml-orleplast",
-    categoria: "descartavel",
+    categoria: "descartaveis",
     grupo: "Descartáveis",
     nome: "COPO 770ML ORLEPLAST",
     descricao: "COPO 770ML ORLEPLAST",
@@ -2707,7 +2615,7 @@ const produtos = [
   },
   {
     id: "copo-termico-nasuk",
-    categoria: "descartavel",
+    categoria: "descartaveis",
     grupo: "Descartáveis",
     nome: "COPO TÉRMICO NASUK",
     descricao: "COPO TÉRMICO NASUK",
@@ -2715,5 +2623,101 @@ const produtos = [
     precoCartao: null,
     imagem: null
   },
+
+
+  // Drinks prontos ------------------------------------------------------------------
+
+
+  {
+    id: "mansao-maromba-whisky-1l",
+    categoria: "drinks-prontos",
+    grupo: "Drinks prontos",
+    nome: "MANSÃO MAROMBA WHISKY PRONTO 1L",
+    descricao: "MANSÃO MAROMBA WHISKY PRONTO 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "mansao-maromba-whisky-maca-verde-1l",
+    categoria: "drinks-prontos",
+    grupo: "Drinks prontos",
+    nome: "MANSÃO MAROMBA WHISKY MAÇÃ VERDE PRONTO 1L",
+    descricao: "MANSÃO MAROMBA WHISKY MAÇÃ VERDE PRONTO 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "mansao-maromba-whisky-tigrinho-1l",
+    categoria: "drinks-prontos",
+    grupo: "Drinks prontos",
+    nome: "MANSÃO MAROMBA WHISKY TIGRINHO PRONTO 1L",
+    descricao: "MANSÃO MAROMBA WHISKY TIGRINHO PRONTO 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "mansao-maromba-gin-combo-tropical-1l",
+    categoria: "drinks-prontos",
+    grupo: "Drinks prontos",
+    nome: "MANSÃO MAROMBA GIN COMBO TROPICAL PRONTO 1L",
+    descricao: "MANSÃO MAROMBA GIN COMBO TROPICAL PRONTO 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "mansao-maromba-gin-melancia-1l",
+    categoria: "drinks-prontos",
+    grupo: "Drinks prontos",
+    nome: "MANSÃO MAROMBA GIN MELANCIA PRONTO 1L",
+    descricao: "MANSÃO MAROMBA GIN MELANCIA PRONTO 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "drink-invictus-tropical-1l",
+    categoria: "drinks-prontos",
+    grupo: "Drinks prontos",
+    nome: "DRINK INVICTUS SABOR DO SABOR TROPICAL 1L",
+    descricao: "DRINK INVICTUS SABOR DO SABOR TROPICAL 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "drink-invictus-maca-verde-1l",
+    categoria: "drinks-prontos",
+    grupo: "Drinks prontos",
+    nome: "DRINK INVICTUS SABOR DO SABOR MAÇÃ VERDE 1L",
+    descricao: "DRINK INVICTUS SABOR DO SABOR MAÇÃ VERDE 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "drink-invictus-melancia-1l",
+    categoria: "drinks-prontos",
+    grupo: "Drinks prontos",
+    nome: "DRINK INVICTUS SABOR DO SABOR MELANCIA 1L",
+    descricao: "DRINK INVICTUS SABOR DO SABOR MELANCIA 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "drink-invictus-whisky-1l",
+    categoria: "drinks-prontos",
+    grupo: "Drinks prontos",
+    nome: "DRINK INVICTUS SABOR DO SABOR WHISKY 1L",
+    descricao: "DRINK INVICTUS SABOR DO SABOR WHISKY 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+
 
 ];
