@@ -1911,37 +1911,809 @@ const produtos = [
 
   // BEATS / ICE ------------------------------------------------------------------
   
-
+  {
+    id: "skol-beats-long-neck-269ml",
+    categoria: "beats-ice",
+    grupo: "Beats / Ice",
+    nome: "SKOL BEATS - LONG NECK 269ml",
+    descricao: "SKOL BEATS - LONG NECK 269ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "skol-beats-verde-long-neck-269ml",
+    categoria: "beats-ice",
+    grupo: "Beats / Ice",
+    nome: "SKOL BEATS VERDE LONG NECK 269ml",
+    descricao: "SKOL BEATS VERDE LONG NECK 269ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "beats-long-neck-gt-269ml",
+    categoria: "beats-ice",
+    grupo: "Beats / Ice",
+    nome: "BEATS LONG NECK GT 269ml",
+    descricao: "BEATS LONG NECK GT 269ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "smirnoff-ice-275ml",
+    categoria: "beats-ice",
+    grupo: "Beats / Ice",
+    nome: "SMIRNOFF ICE 275ml",
+    descricao: "SMIRNOFF ICE 275ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "smirnoff-ice-raspberry-275ml",
+    categoria: "beats-ice",
+    grupo: "Beats / Ice",
+    nome: "SMIRNOFF ICE RASPBERRY 275ml",
+    descricao: "SMIRNOFF ICE RASPBERRY 275ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
 
   // CACHAÇA ------------------------------------------------------------------
   
-
+  {
+    id: "dreher-900ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "DREHER 900ml",
+    descricao: "DREHER 900ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "sao-joao-da-barra-900ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "SÃO JOÃO DA BARRA 900ml",
+    descricao: "SÃO JOÃO DA BARRA 900ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "kit-sagatiba-rabo-de-galo-copo",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "KIT SAGATIBA RABO DE GALO + COPO",
+    descricao: "KIT SAGATIBA RABO DE GALO + COPO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "ypioca-ouro-965ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "YPIOCA OURO 965ml",
+    descricao: "YPIOCA OURO 965ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "ypioca-prata-965ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "YPIOCA PRATA 965ml",
+    descricao: "YPIOCA PRATA 965ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "zora-genebra-dubar-960ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "ZORA GENEBRA DUBAR 960ml",
+    descricao: "ZORA GENEBRA DUBAR 960ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "cachaca-asas-branca-jequitiba-980ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "CACHAÇA ASAS BRANCA JEQUITIBA 980ml",
+    descricao: "CACHAÇA ASAS BRANCA JEQUITIBA 980ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "cachaca-asas-branca-balsamo-980ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "CACHAÇA ASAS BRANCA BÁLSAMO 980ml",
+    descricao: "CACHAÇA ASAS BRANCA BÁLSAMO 980ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "pitu-lata-350ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "PITU LATA 350ml",
+    descricao: "PITU LATA 350ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "bob-pinga-975ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "BOB PINGA 975ml",
+    descricao: "BOB PINGA 975ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "jurubeba-leao-do-norte-600ml",
+    categoria: "cachaca",
+    grupo: "Cachaça",
+    nome: "JURUBEBA LEÃO DO NORTE 600ml",
+    descricao: "JURUBEBA LEÃO DO NORTE 600ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
 
   // RUM ------------------------------------------------------------------
   
-
+  {
+    id: "rum-montilla-carta-ouro",
+    categoria: "rum",
+    grupo: "Rum",
+    nome: "RUM MONTILLA CARTA OURO",
+    descricao: "RUM MONTILLA CARTA OURO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "rum-montilla-carta-branca",
+    categoria: "rum",
+    grupo: "Rum",
+    nome: "RUM MONTILLA CARTA BRANCA",
+    descricao: "RUM MONTILLA CARTA BRANCA",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "rum-montilla-carta-cristal",
+    categoria: "rum",
+    grupo: "Rum",
+    nome: "RUM MONTILLA CARTA CRISTAL",
+    descricao: "RUM MONTILLA CARTA CRISTAL",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "busca-brisa-1l",
+    categoria: "rum",
+    grupo: "Rum",
+    nome: "BUSCA BRISA 1L",
+    descricao: "BUSCA BRISA 1L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
 
   // ÁGUA MINERAL ------------------------------------------------------------------
   
-
+  {
+    id: "agua-crystal-gold-sem-gas-510ml",
+    categoria: "agua",
+    grupo: "Água Mineral",
+    nome: "ÁGUA CRYSTAL GOLD S/GÁS 510ml",
+    descricao: "ÁGUA CRYSTAL GOLD S/GÁS 510ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "agua-com-gas-crystal-510ml",
+    categoria: "agua",
+    grupo: "Água Mineral",
+    nome: "ÁGUA COM GÁS CRYSTAL 510ml",
+    descricao: "ÁGUA COM GÁS CRYSTAL 510ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "agua-crystal-gold-sem-gas-1-5l",
+    categoria: "agua",
+    grupo: "Água Mineral",
+    nome: "ÁGUA CRYSTAL GOLD S/GÁS 1,5L",
+    descricao: "ÁGUA CRYSTAL GOLD S/GÁS 1,5L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
 
   // GELOS SABORES ------------------------------------------------------------------
   
-
+  {
+    id: "gelo-rms-melancia-200ml",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO RMS MELANCIA 200ml",
+    descricao: "GELO RMS MELANCIA 200ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-rms-maracuja-200ml",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO RMS MARACUJÁ 200ml",
+    descricao: "GELO RMS MARACUJÁ 200ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-rms-maca-verde-200ml",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO RMS MAÇÃ VERDE 200ml",
+    descricao: "GELO RMS MAÇÃ VERDE 200ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-rms-blueberry-200ml",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO RMS BLUEBERRY 200ml",
+    descricao: "GELO RMS BLUEBERRY 200ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-rms-coco-200ml",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO RMS COCO 200ml",
+    descricao: "GELO RMS COCO 200ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-rms-morango-200ml",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO RMS MORANGO 200ml",
+    descricao: "GELO RMS MORANGO 200ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-rms-morango-pessego-200ml",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO RMS MORANGO COM PÊSSEGO 200ml",
+    descricao: "GELO RMS MORANGO COM PÊSSEGO 200ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "agua-coco-coko-200ml-fardo-27",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "ÁGUA DE COCO DO COKO 200ml FARDO C/27 (DESCONGELADO)",
+    descricao: "ÁGUA DE COCO DO COKO 200ml FARDO C/27 (DESCONGELADO)",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "agua-coco-coko-morango-200ml-fardo-28",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "ÁGUA DE COCO DO COKO MORANGO 200ml FARDO C/28 (DESCONGELADO)",
+    descricao: "ÁGUA DE COCO DO COKO MORANGO 200ml FARDO C/28 (DESCONGELADO)",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "agua-coco-coko-melancia-200ml-fardo-27",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "ÁGUA DE COCO DO COKO MELANCIA 200ml FARDO C/27 (DESCONGELADO)",
+    descricao: "ÁGUA DE COCO DO COKO MELANCIA 200ml FARDO C/27 (DESCONGELADO)",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "agua-coco-coko-maracuja-200ml-fardo-27",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "ÁGUA DE COCO DO COKO MARACUJÁ 200ml FARDO C/27 (DESCONGELADO)",
+    descricao: "ÁGUA DE COCO DO COKO MARACUJÁ 200ml FARDO C/27 (DESCONGELADO)",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "agua-coco-coko-maca-verde-200ml-fardo-27",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "ÁGUA DE COCO DO COKO MAÇÃ VERDE 200ml FARDO C/27 (DESCONGELADO)",
+    descricao: "ÁGUA DE COCO DO COKO MAÇÃ VERDE 200ml FARDO C/27 (DESCONGELADO)",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "agua-coco-coko-pitaya-200ml-fardo-27",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "ÁGUA DE COCO DO COKO PITAYA 200ml FARDO C/27 (DESCONGELADO)",
+    descricao: "ÁGUA DE COCO DO COKO PITAYA 200ml FARDO C/27 (DESCONGELADO)",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "agua-coco-coko-pessego-200ml-fardo-27",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "ÁGUA DE COCO DO COKO PÊSSEGO 200ml FARDO C/27 (DESCONGELADO)",
+    descricao: "ÁGUA DE COCO DO COKO PÊSSEGO 200ml FARDO C/27 (DESCONGELADO)",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coko-uva-congelado",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COKO UVA CONGELADO",
+    descricao: "GELO COKO UVA CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coko-royale-congelado",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COKO ROYALE CONGELADO",
+    descricao: "GELO COKO ROYALE CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coko-maca-verde-congelado",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COKO MAÇÃ VERDE CONGELADO",
+    descricao: "GELO COKO MAÇÃ VERDE CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coko-laranja-congelado",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COKO LARANJA CONGELADO",
+    descricao: "GELO COKO LARANJA CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coko-pessego-congelado",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COKO PÊSSEGO CONGELADO",
+    descricao: "GELO COKO PÊSSEGO CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-skol-beats-gt",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - SKOL BEATS GT CONGELADO",
+    descricao: "GELO COCO LEVE - SKOL BEATS GT CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-skol-beats-red-mix",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - SKOL BEATS RED MIX CONGELADO",
+    descricao: "GELO COCO LEVE - SKOL BEATS RED MIX CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-skol-beats-green-mix",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - SKOL BEATS GREEN MIX CONGELADO",
+    descricao: "GELO COCO LEVE - SKOL BEATS GREEN MIX CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-approve-amora",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - APPROVE AMORA CONGELADO",
+    descricao: "GELO COCO LEVE - APPROVE AMORA CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-baly",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - BALY CONGELADO",
+    descricao: "GELO COCO LEVE - BALY CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-cavalo-branco",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - CAVALO BRANCO CONGELADO",
+    descricao: "GELO COCO LEVE - CAVALO BRANCO CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-xeque-mate",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - XEQUE MATE CONGELADO",
+    descricao: "GELO COCO LEVE - XEQUE MATE CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-morango",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - MORANGO CONGELADO",
+    descricao: "GELO COCO LEVE - MORANGO CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-melancia",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - MELANCIA CONGELADO",
+    descricao: "GELO COCO LEVE - MELANCIA CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-coco-leve-maracuja",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO COCO LEVE - MARACUJÁ CONGELADO",
+    descricao: "GELO COCO LEVE - MARACUJÁ CONGELADO",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "gelo-ice-boss",
+    categoria: "gelo",
+    grupo: "Gelos Sabores",
+    nome: "GELO ICE BOSS",
+    descricao: "GELO ICE BOSS",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
 
   // REFRIGERANTES ------------------------------------------------------------------
   
-
+  {
+    id: "coca-cola-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "COCA COLA 2L",
+    descricao: "COCA COLA 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "coca-cola-zero-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "COCA COLA ZERO AÇÚCAR 2L",
+    descricao: "COCA COLA ZERO AÇÚCAR 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "coca-cola-200ml",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "COCA COLA 200ml",
+    descricao: "COCA COLA 200ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "guarana-antartica-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "GUARANÁ ANTARTICA 2L",
+    descricao: "GUARANÁ ANTARTICA 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "fanta-uva-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "FANTA UVA 2L",
+    descricao: "FANTA UVA 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "dolly-limao-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "DOLLY LIMÃO 2L",
+    descricao: "DOLLY LIMÃO 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "dolly-guarana-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "DOLLY GUARANA 2L",
+    descricao: "DOLLY GUARANA 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "tuttibaina-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "TUTTIBAINA 2L",
+    descricao: "TUTTIBAINA 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "tuttibaina-zero-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "TUTTIBAINA ZERO 2L",
+    descricao: "TUTTIBAINA ZERO 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "popys-cola-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "POPYS COLA 2L",
+    descricao: "POPYS COLA 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "popys-laranja-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "POPYS LARANJA 2L",
+    descricao: "POPYS LARANJA 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "popys-limao-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "POPYS LIMÃO 2L",
+    descricao: "POPYS LIMÃO 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "popys-guarana-2l",
+    categoria: "refrigerante",
+    grupo: "Refrigerante",
+    nome: "POPYS GUARANÁ 2L",
+    descricao: "POPYS GUARANÁ 2L",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
 
   // SUCOS ------------------------------------------------------------------
 
-
+  {
+    id: "suco-del-valle-maracuja-290ml",
+    categoria: "suco",
+    grupo: "Suco",
+    nome: "SUCO DEL VALLE MARACUJÁ 290ml",
+    descricao: "SUCO DEL VALLE MARACUJÁ 290ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "suco-del-valle-uva-290ml",
+    categoria: "suco",
+    grupo: "Suco",
+    nome: "SUCO DEL VALLE UVA 290ml",
+    descricao: "SUCO DEL VALLE UVA 290ml",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
 
   // CHOCOLATES / DOCES ------------------------------------------------------------------
   
-
+  {
+    id: "trento-avela-caixa-16un",
+    categoria: "chocolate",
+    grupo: "Chocolate",
+    nome: "TRENTO AVELÃ CAIXA C/16un",
+    descricao: "TRENTO AVELÃ CAIXA C/16un",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "trento-cheesecake-morango-caixa-16un",
+    categoria: "chocolate",
+    grupo: "Chocolate",
+    nome: "TRENTO CHEESCAKE MORANGO CAIXA C/16un",
+    descricao: "TRENTO CHEESCAKE MORANGO CAIXA C/16un",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "trento-duo-caixa-16un",
+    categoria: "chocolate",
+    grupo: "Chocolate",
+    nome: "TRENTO DUO CAIXA C/16un",
+    descricao: "TRENTO DUO CAIXA C/16un",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "trento-morango-caixa-16un",
+    categoria: "chocolate",
+    grupo: "Chocolate",
+    nome: "TRENTO MORANGO CAIXA C/16un",
+    descricao: "TRENTO MORANGO CAIXA C/16un",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "trento-chocolate-caixa-16un",
+    categoria: "chocolate",
+    grupo: "Chocolate",
+    nome: "TRENTO CHOCOLATE CAIXA C/16un",
+    descricao: "TRENTO CHOCOLATE CAIXA C/16un",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "trento-torta-limao-caixa-16un",
+    categoria: "chocolate",
+    grupo: "Chocolate",
+    nome: "TRENTO TORTA DE LIMÃO CAIXA C/16un",
+    descricao: "TRENTO TORTA DE LIMÃO CAIXA C/16un",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "trento-torta-pistache-caixa-16un",
+    categoria: "chocolate",
+    grupo: "Chocolate",
+    nome: "TRENTO TORTA DE PISTACHE CAIXA C/16un",
+    descricao: "TRENTO TORTA DE PISTACHE CAIXA C/16un",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "trento-trufa-caixa-16un",
+    categoria: "chocolate",
+    grupo: "Chocolate",
+    nome: "TRENTO TRUFA CAIXA C/16un",
+    descricao: "TRENTO TRUFA CAIXA C/16un",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
 
   // DESCARTÁVEIS ------------------------------------------------------------------
   
-  
+  {
+    id: "copo-770ml-orleplast",
+    categoria: "descartavel",
+    grupo: "Descartáveis",
+    nome: "COPO 770ML ORLEPLAST",
+    descricao: "COPO 770ML ORLEPLAST",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+  {
+    id: "copo-termico-nasuk",
+    categoria: "descartavel",
+    grupo: "Descartáveis",
+    nome: "COPO TÉRMICO NASUK",
+    descricao: "COPO TÉRMICO NASUK",
+    preco: null,
+    precoCartao: null,
+    imagem: null
+  },
+
 ];
