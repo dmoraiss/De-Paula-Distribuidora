@@ -207,25 +207,328 @@ function atualizarSetas() {
   document.querySelector("#categorias-proximas").hidden = listaCategorias.scrollLeft >= fim - 2;
 }
 
-function abrirModal(titulo, elementos) {
+function abrirModal(titulo, elementos, modo = "normal") {
+
   document.querySelector("#titulo-modal").textContent = titulo;
+
   document.querySelector("#corpo-modal").replaceChildren(...elementos);
+
+  // Se for produto, adiciona uma classe especial.
+  // Os outros modais continuam normais.
+  modal.classList.toggle("modal-produto", modo === "produto");
+
   modal.showModal();
 }
 
 function abrirProduto(produto) {
-  const detalhes = [];
-  if (produto.imagem) {
-    const imagem = elemento("img", "produto-imagem");
+
+  const elementos = [];
+
+  // --------------------------------------------------
+  // BOTÃO VOLTAR
+  // --------------------------------------------------
+
+  const voltar = elemento(
+    "button",
+    "voltar-produto",
+    "← Voltar ao catálogo"
+  );
+
+  voltar.type = "button";
+
+  voltar.addEventListener("click", () => {
+    modal.close();
+  });
+
+  elementos.push(voltar);
+
+
+  // --------------------------------------------------
+  // FOTO GRANDE
+  // --------------------------------------------------
+
+  const areaImagem = elemento(
+    "div",
+    "produto-detalhe-imagem-area"
+  );
+
+  if (produto.imagem && produto.imagem !== "null") {
+
+    const imagem = elemento(
+      "img",
+      "produto-detalhe-imagem"
+    );
+
     imagem.src = produto.imagem;
+
     imagem.alt = traduzirConteudo(produto.nome);
-    imagem.addEventListener("error", () => imagem.remove());
-    detalhes.push(imagem);
+
+    imagem.addEventListener("error", () => {
+      areaImagem.remove();
+    });
+
+    areaImagem.append(imagem);
+
+    elementos.push(areaImagem);
   }
-  detalhes.push(elemento("p", "", traduzirConteudo(produto.descricao)));
-  if (condicoesProduto(produto)) detalhes.push(elemento("p", "", condicoesProduto(produto)));
-  detalhes.push(elemento("p", "produto-preco", formatarPreco(produto.preco)));
-  abrirModal(traduzirConteudo(produto.nome), detalhes);
+
+
+  // --------------------------------------------------
+  // INFORMAÇÕES PRINCIPAIS
+  // --------------------------------------------------
+
+  const informacoes = elemento(
+    "section",
+    "produto-detalhe-info"
+  );
+
+
+  // Nome
+
+  informacoes.append(
+    elemento(
+      "h2",
+      "produto-detalhe-nome",
+      traduzirConteudo(produto.nome)
+    )
+  );
+
+
+  // Descrição curta
+
+  if (produto.descricao) {
+
+    informacoes.append(
+      elemento(
+        "p",
+        "produto-detalhe-descricao",
+        traduzirConteudo(produto.descricao)
+      )
+    );
+
+  }
+
+
+  // --------------------------------------------------
+  // CATEGORIA E VOLUME
+  // --------------------------------------------------
+
+  const categoria = categorias.find(
+    item => item.id === produto.categoria
+  );
+
+
+  const resumo = [
+
+    categoria
+      ? traduzirConteudo(categoria.nome)
+      : "",
+
+    produto.volume
+
+  ]
+    .filter(Boolean)
+    .join(" • ");
+
+
+  if (resumo) {
+
+    informacoes.append(
+      elemento(
+        "p",
+        "produto-detalhe-resumo",
+        resumo
+      )
+    );
+
+  }
+
+
+  // --------------------------------------------------
+  // PREÇOS
+  // --------------------------------------------------
+
+  const areaPrecos = elemento(
+    "div",
+    "produto-detalhe-precos"
+  );
+
+
+  const precoPix =
+    produto.precoPix ??
+    produto.preco;
+
+
+  // DINHEIRO / PIX
+
+  const pix = elemento(
+    "div",
+    "produto-preco-box"
+  );
+
+  pix.append(
+    elemento(
+      "span",
+      "produto-preco-label",
+      "Dinheiro / Pix"
+    )
+  );
+
+  pix.append(
+    elemento(
+      "strong",
+      "produto-preco-valor",
+      formatarPreco(precoPix)
+    )
+  );
+
+  areaPrecos.append(pix);
+
+
+  // DÉBITO / CRÉDITO
+
+  if (Number.isFinite(produto.precoCartao)) {
+
+    const cartao = elemento(
+      "div",
+      "produto-preco-box"
+    );
+
+    cartao.append(
+      elemento(
+        "span",
+        "produto-preco-label",
+        "Débito / Crédito"
+      )
+    );
+
+    cartao.append(
+      elemento(
+        "strong",
+        "produto-preco-valor",
+        formatarPreco(produto.precoCartao)
+      )
+    );
+
+    areaPrecos.append(cartao);
+
+  }
+
+
+  informacoes.append(areaPrecos);
+
+
+  // --------------------------------------------------
+  // SOBRE A BEBIDA
+  // --------------------------------------------------
+
+  if (produto.detalhes) {
+
+    const sobre = elemento(
+      "section",
+      "produto-sobre"
+    );
+
+    sobre.append(
+      elemento(
+        "h3",
+        "",
+        "Sobre a bebida"
+      )
+    );
+
+    sobre.append(
+      elemento(
+        "p",
+        "",
+        produto.detalhes
+      )
+    );
+
+    informacoes.append(sobre);
+
+  }
+
+
+  // --------------------------------------------------
+  // DADOS DA BEBIDA
+  // --------------------------------------------------
+
+  const grade = elemento(
+    "div",
+    "produto-detalhes-grade"
+  );
+
+
+  const dados = [
+
+    ["Marca", produto.marca],
+
+    ["Volume", produto.volume],
+
+    ["Teor alcoólico", produto.teorAlcoolico],
+
+    ["Origem", produto.origem],
+
+    [
+      "Categoria",
+      categoria
+        ? traduzirConteudo(categoria.nome)
+        : ""
+    ]
+
+  ];
+
+
+  dados.forEach(([titulo, valor]) => {
+
+    if (!valor) return;
+
+
+    const item = elemento(
+      "div",
+      "produto-detalhe-item"
+    );
+
+
+    item.append(
+      elemento(
+        "span",
+        "produto-detalhe-label",
+        titulo
+      )
+    );
+
+
+    item.append(
+      elemento(
+        "strong",
+        "",
+        valor
+      )
+    );
+
+
+    grade.append(item);
+
+  });
+
+
+  informacoes.append(grade);
+
+  elementos.push(informacoes);
+
+
+  // --------------------------------------------------
+  // ABRE EM MODO PRODUTO
+  // --------------------------------------------------
+
+  abrirModal(
+    traduzirConteudo(produto.nome),
+    elementos,
+    "produto"
+  );
+
 }
 
 function mostrarAviso(mensagem) {

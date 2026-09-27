@@ -108,6 +108,301 @@ body:has(dialog[open]) { overflow: hidden; }
 .link-compartilhar { width: 100%; padding: 10px; border: 1px solid var(--borda); border-radius: 4px; background: var(--fundo-campo); color: var(--texto); font-size: 14px; }
 .aviso { position: fixed; top: 24px; left: 50%; transform: translateX(-50%); z-index: 20; max-width: calc(100% - 32px); width: max-content; padding: 14px 22px; border: 1px solid var(--borda); border-radius: 5px; background: var(--fundo-aviso); color: var(--texto); box-shadow: 0 4px 18px var(--sombra); font-size: 14px; }
 
+/* ==================================================
+   TELA DE DETALHES DO PRODUTO
+   ================================================== */
+
+dialog.modal-produto {
+  width: 100vw;
+  height: 100dvh;
+
+  max-width: none;
+  max-height: none;
+
+  margin: 0;
+  padding: 0;
+
+  border-radius: 0;
+
+  background: var(--superficie);
+}
+
+
+/* Remove o cabeçalho padrão do modal */
+
+dialog.modal-produto .modal-cabecalho {
+  display: none;
+}
+
+
+/* Conteúdo geral */
+
+dialog.modal-produto .modal-conteudo {
+  min-height: 100%;
+  padding: 0;
+
+  background: var(--superficie);
+}
+
+
+/* Área central */
+
+dialog.modal-produto #corpo-modal {
+
+  width: min(100%, 1000px);
+
+  margin: 0 auto;
+
+  padding:
+    25px
+    35px
+    60px;
+
+  color: var(--texto);
+
+}
+
+
+/* ===========================
+   VOLTAR
+   =========================== */
+
+.voltar-produto {
+
+  min-height: 44px;
+
+  margin-bottom: 25px;
+
+  padding: 8px 0;
+
+  border: 0;
+
+  background: transparent;
+
+  color: var(--texto);
+
+  font-size: 15px;
+
+  font-weight: 700;
+
+}
+
+
+/* ===========================
+   IMAGEM
+   =========================== */
+
+.produto-detalhe-imagem-area {
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  min-height: 390px;
+
+  margin-bottom: 35px;
+
+  background: #fafafa;
+
+}
+
+
+.produto-detalhe-imagem {
+
+  display: block;
+
+  width: auto;
+
+  max-width: 360px;
+
+  height: 360px;
+
+  object-fit: contain;
+
+}
+
+
+/* ===========================
+   INFORMAÇÕES
+   =========================== */
+
+.produto-detalhe-info {
+
+  width: 100%;
+
+}
+
+
+.produto-detalhe-nome {
+
+  margin: 0;
+
+  font-size: 25px;
+
+  line-height: 1.35;
+
+}
+
+
+.produto-detalhe-descricao {
+
+  margin-top: 12px;
+
+  color: var(--texto-secundario);
+
+  font-size: 15px;
+
+}
+
+
+.produto-detalhe-resumo {
+
+  margin-top: 10px;
+
+  color: var(--texto-secundario);
+
+  font-size: 14px;
+
+}
+
+
+/* ===========================
+   PREÇOS
+   =========================== */
+
+.produto-detalhe-precos {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 15px;
+
+  margin-top: 30px;
+
+}
+
+
+.produto-preco-box {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+
+  padding: 20px;
+
+  border: 1px solid var(--borda);
+
+  border-radius: 8px;
+
+}
+
+
+.produto-preco-label {
+
+  color: var(--texto-secundario);
+
+  font-size: 14px;
+
+}
+
+
+.produto-preco-valor {
+
+  font-size: 24px;
+
+}
+
+
+/* ===========================
+   SOBRE A BEBIDA
+   =========================== */
+
+.produto-sobre {
+
+  margin-top: 40px;
+
+  padding-top: 30px;
+
+  border-top: 1px solid var(--borda);
+
+}
+
+
+.produto-sobre h3 {
+
+  margin:
+    0
+    0
+    14px;
+
+  font-size: 19px;
+
+}
+
+
+.produto-sobre p {
+
+  margin: 0;
+
+  color: var(--texto-secundario);
+
+  line-height: 1.7;
+
+}
+
+
+/* ===========================
+   INFORMAÇÕES EXTRAS
+   =========================== */
+
+.produto-detalhes-grade {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 1px;
+
+  margin-top: 35px;
+
+  border: 1px solid var(--borda);
+
+  background: var(--borda);
+
+}
+
+
+.produto-detalhe-item {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+
+  padding: 20px;
+
+  background: var(--superficie);
+
+}
+
+
+.produto-detalhe-label {
+
+  color: var(--texto-secundario);
+
+  font-size: 13px;
+
+}
+
 /* 7. CELULAR */
 @media (max-width: 640px) {
   body { background: var(--superficie); }
@@ -133,6 +428,54 @@ body:has(dialog[open]) { overflow: hidden; }
   .produto-preco { font-size: 18px; margin-top: 16px; }
   .vazio { padding-inline: 18px; }
   footer { padding: 24px 18px; }
+
+  dialog.modal-produto #corpo-modal {
+
+  padding:
+    18px
+    18px
+    45px;
+
+}
+
+
+.produto-detalhe-imagem-area {
+
+  min-height: 310px;
+
+  margin-bottom: 25px;
+
+}
+
+
+.produto-detalhe-imagem {
+
+  max-width: 260px;
+
+  height: 280px;
+
+}
+
+
+.produto-detalhe-nome {
+
+  font-size: 21px;
+
+}
+
+
+.produto-detalhe-precos {
+
+  grid-template-columns: 1fr;
+
+}
+
+
+.produto-detalhes-grade {
+
+  grid-template-columns: 1fr;
+
+}
 }
 
 @media (prefers-reduced-motion: reduce) {
