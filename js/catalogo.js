@@ -36,15 +36,21 @@ const categorias = [
   { id: "rum", nome: "Rum", grupos: ["Rum"] },
   { id: "agua-mineral", nome: "Água mineral", grupos: ["Água mineral"] },
   { id: "gelos-sabores", nome: "Gelos sabores", grupos: ["Gelos sabores"] },
-  { id: "refrigerantes", nome: "Refrigerantes / Outros", grupos: ["Refrigerantes/Outros"] },
+  { id: "refrigerantes", nome: "Refrigerantes / Outros", grupos: ["Coca-Cola", "Dolly" , "Tubaina" , "Pop's" , " Guaraná-Antàrtica " ] },
   { id: "sucos", nome: "Sucos / Groselhas / Mel / Outros", grupos: ["Sucos" , "Groselhas" , "Mel" , "Outros" ] },
-  { id: "doces", nome: "Chocolates / Doces", grupos: ["Chocolates" , "Doces"] },
-  { id: "descartaveis", nome: "Copos / Descartáveis / Baldes", grupos: ["Copos" , "Descartáveis" , "Baldes"] }
+  { id: "doces", nome: "Cx Chocolates / Doces", grupos: ["Chocolates" , "Doces"] },
+  { id: "descartaveis", nome: " Descartáveis ", grupos: [ "Descartáveis" ] }
 ];
 
 // Copie um objeto, troque o id por um identificador único e altere os dados.
 // O campo categoria deve corresponder a um id da lista acima.
 // O campo grupo define os subtítulos dentro de cada categoria.
+
+
+/* SEM IMAGEM */
+
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVGBbBkB3V-8eNxJ5-OiMvux3BAODupASs3LQzSCEKw&s=10 */
+
 
 const produtos = [
 
@@ -2276,7 +2282,7 @@ const produtos = [
     descricao: "GELO RMS MELANCIA 200ml",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/a684014e-cd20-429e-a970-07ded9a23818.jpeg"
   },
   {
     id: "gelo-rms-maracuja-200ml",
@@ -2286,7 +2292,7 @@ const produtos = [
     descricao: "GELO RMS MARACUJÁ 200ml",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/6ba7192b-2575-4851-97f3-834dcf333142.jpeg"
   },
   {
     id: "gelo-rms-maca-verde-200ml",
@@ -2296,7 +2302,7 @@ const produtos = [
     descricao: "GELO RMS MAÇÃ VERDE 200ml",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/e1e52fc3-f49e-4ab3-8ab6-30f465ed6716.jpeg"
   },
   {
     id: "gelo-rms-blueberry-200ml",
@@ -2306,7 +2312,7 @@ const produtos = [
     descricao: "GELO RMS BLUEBERRY 200ml",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: " imagens/gelo/gelo-rms-blueberry-200ml.png "
   },
   {
     id: "gelo-rms-coco-200ml",
@@ -2316,7 +2322,7 @@ const produtos = [
     descricao: "GELO RMS COCO 200ml",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/a55b9a77-c561-4582-be53-3e51ef9f7197.jpeg"
   },
   {
     id: "gelo-rms-morango-200ml",
@@ -2326,7 +2332,7 @@ const produtos = [
     descricao: "GELO RMS MORANGO 200ml",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/c0274bb8-6b8f-4ae0-a6c2-830a5bc2c5b0.jpeg"
   },
   {
     id: "gelo-rms-morango-pessego-200ml",
@@ -2336,7 +2342,7 @@ const produtos = [
     descricao: "GELO RMS MORANGO COM PÊSSEGO 200ml",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/1c10f847-b378-4df5-b757-c6134e62c0be.jpeg"
   },
   {
     id: "agua-coco-coko-200ml-fardo-27",
@@ -2346,7 +2352,7 @@ const produtos = [
     descricao: "ÁGUA DE COCO DO COKO 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/147ec416-9fdd-46c7-808e-6bc6c6f37448.jpeg"
   },
   {
     id: "agua-coco-coko-morango-200ml-fardo-28",
@@ -2356,7 +2362,7 @@ const produtos = [
     descricao: "ÁGUA DE COCO DO COKO MORANGO 200ml FARDO C/28 (DESCONGELADO)",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/2c4b73e7-7b45-44ef-8b97-b134457ae6a3.jpeg"
   },
   {
     id: "agua-coco-coko-melancia-200ml-fardo-27",
@@ -2366,7 +2372,7 @@ const produtos = [
     descricao: "ÁGUA DE COCO DO COKO MELANCIA 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/c1318992-160e-4a6d-8d77-4087619c5c1f.jpeg"
   },
   {
     id: "agua-coco-coko-maracuja-200ml-fardo-27",
@@ -2376,7 +2382,7 @@ const produtos = [
     descricao: "ÁGUA DE COCO DO COKO MARACUJÁ 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/a6c64212-b86b-43d1-bee7-a2f21bea7c24.jpeg"
   },
   {
     id: "agua-coco-coko-maca-verde-200ml-fardo-27",
@@ -2386,7 +2392,7 @@ const produtos = [
     descricao: "ÁGUA DE COCO DO COKO MAÇÃ VERDE 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8dfrYW2zShH-oTkR_PIwPOYZlBvY97rDpEkJbEODXhg&s"
   },
   {
     id: "agua-coco-coko-pitaya-200ml-fardo-27",
@@ -2396,7 +2402,7 @@ const produtos = [
     descricao: "ÁGUA DE COCO DO COKO PITAYA 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/cb254218-3f66-4f13-967c-1aee2b0149dd.jpeg"
   },
   {
     id: "agua-coco-coko-pessego-200ml-fardo-27",
@@ -2406,7 +2412,7 @@ const produtos = [
     descricao: "ÁGUA DE COCO DO COKO PÊSSEGO 200ml FARDO C/27 (DESCONGELADO)",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/f40fdcd2-8a84-4247-8fc0-c09ff07ef1b5.jpeg"
   },
   {
     id: "gelo-coko-uva-congelado",
@@ -2416,7 +2422,7 @@ const produtos = [
     descricao: "GELO COKO UVA CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/39764302-d57d-48f5-97cc-4739e8b4326f.jpeg"
   },
   {
     id: "gelo-coko-royale-congelado",
@@ -2426,7 +2432,7 @@ const produtos = [
     descricao: "GELO COKO ROYALE CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/170450ea-8ee8-45f2-a9b5-6dd6293ab330.jpeg"
   },
   {
     id: "gelo-coko-maca-verde-congelado",
@@ -2436,7 +2442,7 @@ const produtos = [
     descricao: "GELO COKO MAÇÃ VERDE CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/102bab9f-ff91-4cba-8d65-a5606b61558c.jpeg"
   },
   {
     id: "gelo-coko-laranja-congelado",
@@ -2446,7 +2452,7 @@ const produtos = [
     descricao: "GELO COKO LARANJA CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/41294167-a09c-4006-91c8-010dafd281d8.jpeg"
   },
   {
     id: "gelo-coko-pessego-congelado",
@@ -2456,7 +2462,7 @@ const produtos = [
     descricao: "GELO COKO PÊSSEGO CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/977ff4d0-aa06-4de1-80f2-3779b6fd3d40.jpeg"
   },
   {
     id: "gelo-coco-leve-skol-beats-gt",
@@ -2466,7 +2472,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - SKOL BEATS GT CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: "null"
+    imagem: "https://images.getinapp.com.br/b39a8fca-0cb7-419d-b9f1-5e5c04ccea53.jpeg"
   },
   {
     id: "gelo-coco-leve-skol-beats-red-mix",
@@ -2476,7 +2482,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - SKOL BEATS RED MIX CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqAOKDGMaYc2Q1AmA0pZTgWarI_Q53jRj-S4PoE3pSLw&s=10"
   },
   {
     id: "gelo-coco-leve-skol-beats-green-mix",
@@ -2486,7 +2492,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - SKOL BEATS GREEN MIX CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/d2be534a-c3e3-415b-9e22-0df0c750a2ed.jpeg"
   },
   {
     id: "gelo-coco-leve-approve-amora",
@@ -2496,7 +2502,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - APPROVE AMORA CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/6129344a-aae4-4802-be2e-a65085dcac1b.jpeg"
   },
   {
     id: "gelo-coco-leve-baly",
@@ -2506,7 +2512,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - BALY CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNVC6lFdpeY3gK1D22dIsiw0qtAktenc04hhSTmPeOjw&s=10 "
   },
   {
     id: "gelo-coco-leve-cavalo-branco",
@@ -2516,7 +2522,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - CAVALO BRANCO CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/a55ee9bd-10d6-453c-b9e8-71762bcf0cb7.jpeg"
   },
   {
     id: "gelo-coco-leve-xeque-mate",
@@ -2526,7 +2532,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - XEQUE MATE CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/f272d3f7-2b8c-4f64-b184-efc190380484.jpeg"
   },
   {
     id: "gelo-coco-leve-morango",
@@ -2536,7 +2542,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - MORANGO CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/1a4adf65-6afb-4146-8246-61877651ed78.jpeg"
   },
   {
     id: "gelo-coco-leve-melancia",
@@ -2546,7 +2552,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - MELANCIA CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/d3e9e2df-726c-4dd0-a2b5-228912750d66.jpeg"
   },
   {
     id: "gelo-coco-leve-maracuja",
@@ -2556,7 +2562,7 @@ const produtos = [
     descricao: "GELO COCO LEVE - MARACUJÁ CONGELADO",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/03a52b10-6cbd-40da-a8d4-4c3ccb23f0cd.jpeg"
   },
   {
     id: "gelo-ice-boss",
@@ -2566,50 +2572,58 @@ const produtos = [
     descricao: "GELO ICE BOSS",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVGBbBkB3V-8eNxJ5-OiMvux3BAODupASs3LQzSCEKw&s=10"
   },
+
+
+
+
 
   // REFRIGERANTES ------------------------------------------------------------------
   
+
+
+
+
   {
     id: "coca-cola-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Coca-Cola",
     nome: "COCA COLA 2L",
     descricao: "COCA COLA 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/b640a9d7-78a1-49c4-90b1-3d94d12687ad.jpeg"
   },
   {
     id: "coca-cola-zero-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Coca-Cola",
     nome: "COCA COLA ZERO AÇÚCAR 2L",
     descricao: "COCA COLA ZERO AÇÚCAR 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/604bc84b-d094-4a7d-91cf-624a73dabb19.jpeg"
   },
   {
     id: "coca-cola-200ml",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Coca-Cola",
     nome: "COCA COLA 200ml",
     descricao: "COCA COLA 200ml",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/b98fff9e-ef2b-4583-b04d-0b8afe4fa179.jpeg"
   },
   {
     id: "guarana-antartica-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Guaraná Antàrtica",
     nome: "GUARANÁ ANTARTICA 2L",
     descricao: "GUARANÁ ANTARTICA 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/1849c373-3840-4a49-95a3-7e88fa479d6c.jpeg"
   },
   {
     id: "fanta-uva-2l",
@@ -2619,90 +2633,98 @@ const produtos = [
     descricao: "FANTA UVA 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyuJzKMJa30BeifaMQbWQtcXvQJCTZE5K2czo66PWBzg&s=10"
   },
   {
     id: "dolly-limao-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Dolly",
     nome: "DOLLY LIMÃO 2L",
     descricao: "DOLLY LIMÃO 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6aBVlyfOXRp-UKMgIthnuzbbY16Hut_OYONBoFTCxLQ&s=10"
   },
   {
     id: "dolly-guarana-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Dolly",
     nome: "DOLLY GUARANA 2L",
     descricao: "DOLLY GUARANA 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: 'https://images.getinapp.com.br/4af4b843-f096-4746-b48f-c4e469555ef3.jpeg'
   },
   {
     id: "tuttibaina-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Tubaina",
     nome: "TUTTIBAINA 2L",
     descricao: "TUTTIBAINA 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/dc083068-0297-4804-a4fa-c443e0fe44d7.jpeg"
   },
   {
     id: "tuttibaina-zero-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Tubaina",
     nome: "TUTTIBAINA ZERO 2L",
     descricao: "TUTTIBAINA ZERO 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/c329711b-da62-4853-9074-5c277e27b1b4.jpeg"
   },
   {
     id: "popys-cola-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Pop's",
     nome: "POPYS COLA 2L",
     descricao: "POPYS COLA 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/42b5304a-a5cf-4cc4-91b7-b024833ce96a.jpeg"
   },
   {
     id: "popys-laranja-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Pop's",
     nome: "POPYS LARANJA 2L",
     descricao: "POPYS LARANJA 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/bed1ddd9-ff03-4265-908e-273216cda6db.jpeg"
   },
   {
     id: "popys-limao-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Pop's",
     nome: "POPYS LIMÃO 2L",
     descricao: "POPYS LIMÃO 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/87293708-6c21-46fa-889c-8c1634ac21c8.jpeg"
   },
   {
     id: "popys-guarana-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Pop's",
     nome: "POPYS GUARANÁ 2L",
     descricao: "POPYS GUARANÁ 2L",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/740e3898-c093-405c-9987-f1406b1ef629.jpeg"
   },
 
+
+
+
+
   // SUCOS ------------------------------------------------------------------
+
+
+
+
 
   {
     id: "suco-del-valle-maracuja-290ml",
@@ -2710,9 +2732,9 @@ const produtos = [
     grupo: "Sucos",
     nome: "SUCO DEL VALLE MARACUJÁ 290ml",
     descricao: "SUCO DEL VALLE MARACUJÁ 290ml",
-    preco: null,
-    precoCartao: null,
-    imagem: null
+    preco: 5.00,
+    precoCartao: 9.00,
+    imagem: "https://images.getinapp.com.br/c141359d-1a9f-4f16-b0de-67d3e51e5ff0.jpeg"
   },
   {
     id: "suco-del-valle-uva-290ml",
@@ -2720,13 +2742,21 @@ const produtos = [
     grupo: "Sucos",
     nome: "SUCO DEL VALLE UVA 290ml",
     descricao: "SUCO DEL VALLE UVA 290ml",
-    preco: null,
-    precoCartao: null,
-    imagem: null
+    preco: 5.00,
+    precoCartao: 9.00,
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzbp-aFr5thNEMY9z8ksn_GgK-C8F0aO29zPfk6h3C0g&s=10"
   },
+
+
+
+
 
   // CHOCOLATES / DOCES ------------------------------------------------------------------
   
+
+
+
+
   {
     id: "trento-avela-caixa-16un",
     categoria: "doces",
@@ -2735,7 +2765,7 @@ const produtos = [
     descricao: "TRENTO AVELÃ CAIXA C/16un",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/70ad36d8-fccb-4aa8-bc52-ce2c5bf36dd4.jpeg"
   },
   {
     id: "trento-cheesecake-morango-caixa-16un",
@@ -2745,7 +2775,7 @@ const produtos = [
     descricao: "TRENTO CHEESCAKE MORANGO CAIXA C/16un",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/cb656e1a-eace-4fb3-aca0-c42d503dedef.jpeg"
   },
   {
     id: "trento-duo-caixa-16un",
@@ -2755,7 +2785,7 @@ const produtos = [
     descricao: "TRENTO DUO CAIXA C/16un",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/98e94dbc-f2de-4490-b493-4db29fbd0ae3.jpeg"
   },
   {
     id: "trento-morango-caixa-16un",
@@ -2765,7 +2795,7 @@ const produtos = [
     descricao: "TRENTO MORANGO CAIXA C/16un",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/c76047aa-9148-4882-877f-8d778c134eb4.jpeg"
   },
   {
     id: "trento-chocolate-caixa-16un",
@@ -2775,7 +2805,7 @@ const produtos = [
     descricao: "TRENTO CHOCOLATE CAIXA C/16un",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/78a04790-ff7e-41c8-a100-d58048548805.jpeg"
   },
   {
     id: "trento-torta-limao-caixa-16un",
@@ -2785,7 +2815,7 @@ const produtos = [
     descricao: "TRENTO TORTA DE LIMÃO CAIXA C/16un",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/61a27f10-2f3e-4371-8a05-5afaef76aeae.jpeg"
   },
   {
     id: "trento-torta-pistache-caixa-16un",
@@ -2795,7 +2825,7 @@ const produtos = [
     descricao: "TRENTO TORTA DE PISTACHE CAIXA C/16un",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSal_0etDTPswimtDvRR8J8ETX9n4g62I2nEcloKNmFOQ&s=10"
   },
   {
     id: "trento-trufa-caixa-16un",
@@ -2805,7 +2835,7 @@ const produtos = [
     descricao: "TRENTO TRUFA CAIXA C/16un",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/43bd5f70-98da-4b64-8e31-031c7d86e562.jpeg"
   },
 
   // DESCARTÁVEIS ------------------------------------------------------------------
@@ -2818,22 +2848,15 @@ const produtos = [
     descricao: "COPO 770ML ORLEPLAST",
     preco: null,
     precoCartao: null,
-    imagem: null
+    imagem: "https://images.getinapp.com.br/07e0550f-a768-4182-b99f-96668a3397ad.jpeg"
   },
-  {
-    id: "copo-termico-nasuk",
-    categoria: "descartaveis",
-    grupo: "Descartáveis",
-    nome: "COPO TÉRMICO NASUK",
-    descricao: "COPO TÉRMICO NASUK",
-    preco: null,
-    precoCartao: null,
-    imagem: null
-  },
+
 
 
   
+/* SEM IMAGEM */
 
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVGBbBkB3V-8eNxJ5-OiMvux3BAODupASs3LQzSCEKw&s=10 */
 
   
 
