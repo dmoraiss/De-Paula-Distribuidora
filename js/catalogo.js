@@ -30,13 +30,13 @@ const categorias = [
   { id: "drinks-prontos", nome: "Drinks prontos", grupos: ["Drinks prontos"] },
   { id: "champanhe", nome: "Champanhe", grupos: ["Champanhe"] },
   { id: "vinho", nome: "Vinho", grupos: ["Vinho"] },
-  { id: "beats-ice", nome: "Beats / Ice", grupos: ["Beats/Ice"] },
+  { id: "beats-ice", nome: "Beats / Ice", grupos: ["Beats / Ice"] },
   { id: "aperitivo", nome: "Aperitivo", grupos: ["Aperitivo"] },
   { id: "cachaca", nome: "Cachaça", grupos: ["Cachaça"] },
   { id: "rum", nome: "Rum", grupos: ["Rum"] },
   { id: "agua-mineral", nome: "Água mineral", grupos: ["Água mineral"] },
   { id: "gelos-sabores", nome: "Gelos sabores", grupos: ["Gelos sabores"] },
-  { id: "refrigerantes", nome: "Refrigerantes / Outros", grupos: ["Coca-Cola", "Dolly" , "Tubaina" , "Pop's" , " Guaraná-Antàrtica " ] },
+  { id: "refrigerantes", nome: "Refrigerantes / Outros", grupos: ["Coca-Cola", "Dolly" , "Tubaina" , "Pop's" , "Guaraná Antártica" , "Fanta"] },
   { id: "sucos", nome: "Sucos / Groselhas / Mel / Outros", grupos: ["Sucos" , "Groselhas" , "Mel" , "Outros" ] },
   { id: "doces", nome: "Cx Chocolates / Doces", grupos: ["Chocolates" , "Doces"] },
   { id: "descartaveis", nome: " Descartáveis ", grupos: [ "Descartáveis" ] }
@@ -850,7 +850,7 @@ const produtos = [
   {
     id: "grey-goose-tradicional", categoria: "vodka", grupo: "Vodka",
     nome: "GREY GOOSE TRADICIONAL 750ml", descricao: "GREY GOOSE TRADICIONAL 750ml",
-    preco: 168.00, precoCartao: 179.90, imagem: " https://images.getinapp.com.br/956347f1-3978-4724-9ac0-00439e76c45c.jpeg "
+    preco: 168.00, precoCartao: 179.90, imagem: "https://images.getinapp.com.br/956347f1-3978-4724-9ac0-00439e76c45c.jpeg"
   },
   {
     id: "grey-goose-orange", categoria: "vodka", grupo: "Vodka",
@@ -860,12 +860,12 @@ const produtos = [
   {
     id: "grey-goose-citron", categoria: "vodka", grupo: "Vodka",
     nome: "GREY GOOSE CITRON 750ml", descricao: "GREY GOOSE CITRON 750ml",
-    preco: 140.90, precoCartao: 169.90, imagem: " https://images.getinapp.com.br/b5d5351c-5714-4092-ac88-164bb5832521.jpg "
+    preco: 140.90, precoCartao: 169.90, imagem: "https://images.getinapp.com.br/b5d5351c-5714-4092-ac88-164bb5832521.jpg"
   },
   {
     id: "grey-goose-pera", categoria: "vodka", grupo: "Vodka",
     nome: "GREY GOOSE PERA 750ml", descricao: "GREY GOOSE PERA 750ml",
-    preco: 140.90, precoCartao: 169.90, imagem: " https://images.getinapp.com.br/eba8d2fe-f9fa-4f39-aa81-06c23332ff0e.jpg "
+    preco: 140.90, precoCartao: 169.90, imagem: "https://images.getinapp.com.br/eba8d2fe-f9fa-4f39-aa81-06c23332ff0e.jpg"
   },
   {
     id: "ciroc-tradicional",
@@ -1089,7 +1089,7 @@ const produtos = [
     preco: null,
     precoCartao: null,
     imagem: "https://images.getinapp.com.br/b41abe06-2c11-4bc4-a69b-ff9f58f726a4.jpeg " ,
-    unidade: ""
+    unidade: true
   },
   {
     id: "skol-lata-269ml-fardo-fechado-c15",
@@ -1100,7 +1100,7 @@ const produtos = [
     preco: null,
     precoCartao: null,
     imagem: "https://images.getinapp.com.br/e68d1b72-eaa5-419d-b64e-2688afdf685f.jpeg",
-    unidade: ""
+    unidade: true
   },
   {
     id: "itaipava-269ml",
@@ -1111,7 +1111,7 @@ const produtos = [
     preco: null,
     precoCartao: null,
     imagem: "https://images.getinapp.com.br/03e5fb31-23bb-4b6a-85dd-2780a7fa022a.jpeg",
-    unidade: "true"
+    unidade: true
   },
   {
     id: "amstel-lata-269ml",
@@ -1122,7 +1122,7 @@ const produtos = [
     preco: null,
     precoCartao: null,
     imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGPT0vm23MpWNpZdRfZ0S2bTSJCc4tG5Vs3qqxSV-4Tg&s=10",
-    unidade: "true"
+    unidade: true
   },
   {
     id: "xeque-mate-lata-355ml",
@@ -1133,7 +1133,7 @@ const produtos = [
     preco: null,
     precoCartao: null,
     imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdek3nLa3srzAoEGiKoPrpKy_n9VCN0VRTI2Rum_Fn4A&s=10",
-    unidade: "true"
+    unidade: true
   },
   {
     id: "draft-chopp-600ml",
@@ -1144,7 +1144,7 @@ const produtos = [
     preco: null,
     precoCartao: null,
     imagem: "https://images.getinapp.com.br/a6dbae69-128d-4589-b2ac-dbebef9d1e7f.jpeg",
-    unidade: "true"
+    unidade: true
   },
 
 
@@ -1823,7 +1823,7 @@ const produtos = [
     descricao: "ESPUMANTE CASA PERINI BRUT BRANCO 750ml",
     preco: null,
     precoCartao: null,
-    imagem: "  https://images.getinapp.com.br/91d4b4e3-fad1-4b07-9a5e-1151f034db35.jpeg  "
+    imagem: "  https://images.getinapp.com.br/91d4b4e3-fad1-4b07-9a5e-1151f034db35.jpeg"
   },
   {
     id: "casa-perini-moscatel-branco-750ml",
@@ -2021,10 +2021,10 @@ const produtos = [
     imagem: "https://images.getinapp.com.br/08487bfb-7902-4ba9-9892-d0fe2dff6f0c.jpg"
   },
   {
-    id: "smirnoff-ice-275ml",
+    id: "smirnoff-ice-frutas-tropicais-275ml",
     categoria: "beats-ice",
     grupo: "Beats / Ice",
-    nome: "smirnoff ice frutas tropicais 275ml",
+    nome: "SMIRNOFF ICE FRUTAS TROPICAIS 275ML",
     descricao: "SMIRNOFF ICE FRUTAS TROPICAIS 275ML",
     preco: null,
     precoCartao: null,
@@ -2312,7 +2312,7 @@ const produtos = [
     descricao: "GELO RMS BLUEBERRY 200ml",
     preco: null,
     precoCartao: null,
-    imagem: " imagens/gelo/gelo-rms-blueberry-200ml.png "
+    imagem: "imagens/gelo/gelo-rms-blueberry-200ml.png"
   },
   {
     id: "gelo-rms-coco-200ml",
@@ -2618,7 +2618,7 @@ const produtos = [
   {
     id: "guarana-antartica-2l",
     categoria: "refrigerantes",
-    grupo: "Guaraná Antàrtica",
+    grupo: "Guaraná Antártica",
     nome: "GUARANÁ ANTARTICA 2L",
     descricao: "GUARANÁ ANTARTICA 2L",
     preco: null,
@@ -2628,7 +2628,7 @@ const produtos = [
   {
     id: "fanta-uva-2l",
     categoria: "refrigerantes",
-    grupo: "Refrigerantes / Outros",
+    grupo: "Fanta",
     nome: "FANTA UVA 2L",
     descricao: "FANTA UVA 2L",
     preco: null,
@@ -2653,7 +2653,7 @@ const produtos = [
     descricao: "DOLLY GUARANA 2L",
     preco: null,
     precoCartao: null,
-    imagem: 'https://images.getinapp.com.br/4af4b843-f096-4746-b48f-c4e469555ef3.jpeg'
+    imagem: "https://images.getinapp.com.br/4af4b843-f096-4746-b48f-c4e469555ef3.jpeg"
   },
   {
     id: "tuttibaina-2l",
