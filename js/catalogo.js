@@ -38,7 +38,7 @@ const categorias = [
   { id: "gelos-sabores", nome: "Gelos sabores", grupos: ["Gelos sabores"] },
   { id: "refrigerantes", nome: "Refrigerantes / Outros", grupos: ["Coca-Cola", "Dolly" , "Tubaina" , "Pop's" , "Guaraná Antártica" , "Fanta"] },
   { id: "sucos", nome: "Sucos / Groselhas / Mel / Outros", grupos: ["Sucos" , "Groselhas" , "Mel" , "Outros" ] },
-  { id: "doces", nome: "Cx Chocolates / Doces", grupos: ["Chocolates" , "Doces"] },
+  { id: "doces", nome: "Cx Chocolates / Doces", grupos: ["Chocolates" ] },
   { id: "descartaveis", nome: " Descartáveis ", grupos: [ "Descartáveis" ] }
 ];
 
@@ -99,7 +99,7 @@ const produtos = [
   {
     id: "bombay-sapphire", categoria: "gin", grupo: "Gin",
     nome: "BOMBAY SAPPHIRE 750ml", descricao: "BOMBAY SAPPHIRE 750ml",
-    preco: 89.99, precoCartao: 99.90, imagem: "https://images.getinapp.com.br/7d6ceda9-8c06-4d45-963d-c7671c34ffa4.jpg"
+    preco: 89.99, precoCartao: 99.90, imagem: " https://images.getinapp.com.br/c1e9396d-bc35-437c-8011-ed7dcfcc502d.jpg "
   },
   {
     id: "tanqueray-tradicional", categoria: "gin", grupo: "Gin",
