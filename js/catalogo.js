@@ -76,18 +76,19 @@ const produtos = [
 
   detalhes:
     "Gin London Dry de perfil seco e aromático, produzido com botânicos selecionados. Ideal para drinks como Gin Tônica e outros coquetéis.",
-  preco: null,
+
+  preco: 76.99,
 
   precoCartao: null,
 
   imagem: "https://images.getinapp.com.br/c2c39385-0096-433f-825c-aace4dd9c9c7.jpg"
 
   },
-  
+
   {
     id: "beefeater-pink", categoria: "gin", grupo: "Gin",
     nome: "BEEFEATER 700ml - PINK", descricao: "Gin Beefeater Pink com sabor de morango, indicado para servir gelado ou preparar coquetéis.",
-    preco: null, precoCartao: null, imagem: "https://images.getinapp.com.br/bd95036d-327e-436b-982c-2257ec5a52cb.jpg"
+    preco: 88.00, precoCartao: null, imagem: "https://images.getinapp.com.br/bd95036d-327e-436b-982c-2257ec5a52cb.jpg"
     ,
   },
   {
@@ -103,7 +104,7 @@ const produtos = [
   {
     id: "tanqueray-tradicional", categoria: "gin", grupo: "Gin",
     nome: "TANQUERAY TRADICIONAL 750ml", descricao: "Gin Tanqueray Tradicional, versátil para Gin Tônica e outros coquetéis.",
-    preco: null, precoCartao: null, imagem: "https://images.getinapp.com.br/8f96631a-6917-4c58-9369-9642dccc4212.jpg"
+    preco: 104.99, precoCartao: null, imagem: "https://images.getinapp.com.br/8f96631a-6917-4c58-9369-9642dccc4212.jpg"
   },
   
   {
@@ -123,7 +124,7 @@ const produtos = [
     grupo: "Gin",
     nome: "TANQUERAY BOSSA NOVA 700ml",
     descricao: "Gin Tanqueray Bossa Nova, versátil para Gin Tônica e outros coquetéis.",
-    preco: null,
+    preco: 130.00,
     precoCartao: null,
     imagem: "https://images.getinapp.com.br/845acf22-94eb-4cc0-ac44-d94fe8d9f3fd.jpeg"
   },
@@ -164,7 +165,7 @@ const produtos = [
   grupo: "Gin",
   nome: "GORDONS PINK 700ml",
   descricao: "Gin Gordons Pink, versátil para Gin Tônica e outros coquetéis.",
-  preco: null,
+  preco: 60.00,
   precoCartao: null,
   imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6nmtsngRbqVHFDf1BGd5sqmvMlLR1JxSmFS19LiDR3Q&s=10"
 },
@@ -442,7 +443,7 @@ const produtos = [
   {
     id: "jack-daniels-tradicional", categoria: "whisky", grupo: "Whisky",
     nome: "JACK DANIELS TRADICIONAL 1L", descricao: "Whisky Jack Daniels Tradicional, para apreciar puro, com gelo ou em coquetéis.",
-    preco: null, precoCartao: null, imagem: "https://images.getinapp.com.br/122ac247-880f-408b-97dd-4c0d39c4caaf.jpg"
+    preco: 117.00, precoCartao: null, imagem: "https://images.getinapp.com.br/122ac247-880f-408b-97dd-4c0d39c4caaf.jpg"
   },
   {
     id: "jack-daniels-honey", categoria: "whisky", grupo: "Whisky",
@@ -452,7 +453,7 @@ const produtos = [
   {
     id: "jack-daniels-maca", categoria: "whisky", grupo: "Whisky",
     nome: "JACK DANIELS MAÇÃ VERDE 1L", descricao: "Whisky Jack Daniels Maçã Verde na versão maçã verde, para apreciar puro, com gelo ou em coquetéis.",
-    preco: null, precoCartao: null, imagem: "https://images.getinapp.com.br/9995a8f9-d206-4434-8134-c5a7a3758b4f.jpg"
+    preco: 129.00, precoCartao: null, imagem: "https://images.getinapp.com.br/9995a8f9-d206-4434-8134-c5a7a3758b4f.jpg"
   },
   {
     id: "jack-daniels-fire", categoria: "whisky", grupo: "Whisky",
@@ -601,7 +602,7 @@ const produtos = [
   grupo: "Whisky",
   nome: "GOLD LABEL 750ml",
   descricao: "Whisky Gold Label, para apreciar puro, com gelo ou em coquetéis.",
-  preco: null,
+  preco: 237.99,
   precoCartao: null,
   imagem: "https://images.getinapp.com.br/f3ad10b8-74d5-4d08-9200-4c57637fb285.jpg"
 },
@@ -731,7 +732,7 @@ const produtos = [
   grupo: "Whisky",
   nome: "OLD PARR 12 ANOS 1L",
   descricao: "Whisky Old Parr 12 Anos, para apreciar puro, com gelo ou em coquetéis.",
-  preco: null,
+  preco: 125.00,
   precoCartao: null,
   imagem: "https://images.getinapp.com.br/d99bd4db-0835-4c19-b2b8-ad9e3a9c41dd.jpg"
 },
@@ -791,7 +792,7 @@ const produtos = [
   grupo: "Whisky",
   nome: "CHIVAS 12 ANOS 1L",
   descricao: "Whisky Chivas 12 Anos, para apreciar puro, com gelo ou em coquetéis.",
-  preco: null,
+  preco: 188.00,
   precoCartao: null,
   imagem: "https://images.getinapp.com.br/c18c4fee-0f0f-4bca-87ca-1f5da0186efe.jpg"
 },
@@ -859,7 +860,7 @@ const produtos = [
   {
     id: "grey-goose-citron", categoria: "vodka", grupo: "Vodka",
     nome: "GREY GOOSE CITRON 750ml", descricao: "Vodka Grey Goose Citron, indicada para servir gelada ou usar como base de coquetéis.",
-    preco: null, precoCartao: null, imagem: "https://images.getinapp.com.br/b5d5351c-5714-4092-ac88-164bb5832521.jpg"
+    preco: 168.00, precoCartao: null, imagem: "https://images.getinapp.com.br/b5d5351c-5714-4092-ac88-164bb5832521.jpg"
   },
   {
     id: "grey-goose-pera", categoria: "vodka", grupo: "Vodka",
@@ -883,7 +884,7 @@ const produtos = [
     grupo: "Vodka",
     nome: "CIROC RED BERRY 750ml",
     descricao: "Vodka Ciroc Red Berry, indicada para servir gelada ou usar como base de coquetéis.",
-    preco: null,
+    preco: 215.00,
     precoCartao: null,
     imagem: "https://images.getinapp.com.br/acb7fa0e-cdb6-4931-b415-f3dab6ed4e4f.jpeg"
   },
